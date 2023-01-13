@@ -1,15 +1,11 @@
 #include <Arduino.h>
 
 /*
-  Tachometer Program made to report the rpm and 
+  A simple Tachometer Program made to report the rpm and 
   number of revolutions to an LCD screen with an I2C adapter.
-
-  The circuit:
-
- This example code is in the public domain.
-
- http://www.arduino.cc/en/Tutorial/LiquidCrystal
- */
+  Uses the hall effect and a 3144 sensor to detect revolutions.
+  Developed on an Arduino Uno Rev 3 and adapted to an Arduino Nano.
+*/
 
 // include the library code:
 #include <LiquidCrystal_I2C.h>
